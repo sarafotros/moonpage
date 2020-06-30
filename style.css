@@ -1,27 +1,61 @@
-.box1{
-  background-color: lightblue;
-  grid-area: box1;
+body {
+	height: 100vh;
+	font-family: 'Noto Sans', sans-serif;
+	color: rgb(0, 32, 77);
+	background-color: rgb(248, 248, 249);
+	font-size: 1rem;
+	line-height: 1.5;
+	font-weight: 300;
+	margin: 0px;
 }
-.box2{
-  background-color: lightcoral;
-  grid-area: box2;
+
+.header {
+	background-color: rgb(233, 243, 247);
+	height: 200px;
 }
-.box3{
-  background-color: lightgreen;
-  grid-area: box3;
+.upper-slide {
+	background-color: rgb(255, 248, 249);
+	height: 40px;
 }
-.box4{
-  background-color: lightpink;
-  grid-area: box4;
+.slider-move {
+	background-color: rgb(255, 198, 209);
+	height: 200px;
 }
-.main{
-height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr
-  grid-template-rows: 1fr 2fr 1fr;
-  grid-template-areas: 
-    "box1 box1 ."
-    ". box2  box2"
-    ". box3 box4 "
-    ;
+.drawer {
+	background-color: aliceblue;
+	height: 100px;
+}
+.bday-card {
+	background-color: rgb(255, 248, 249);
+	height: 300px;
+}
+.flowers {
+	background-color: white;
+	height: 300px;
+}
+.pride-month {
+	background-color: rgb(255, 248, 249);
+	height: 300px;
+}
+.pride-cards {
+	background-color: rgb(255, 248, 249);
+	height: 300px;
+}
+.sections {
+	background-color: white;
+	height: 300px;
+}
+.contacts {
+	height: 400px;
+	background-color: rgb(240, 241, 243);
+}
+.our-app {
+	background-color: rgb(248, 248, 249);
+	height: 300px;
+}
+.our-brand {
+	height: 200px;
+	background-color: rgb(255, 255, 255);
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
