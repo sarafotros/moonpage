@@ -1,0 +1,27 @@
+.box1{
+  background-color: lightblue;
+  grid-area: box1;
+}
+.box2{
+  background-color: lightcoral;
+  grid-area: box2;
+}
+.box3{
+  background-color: lightgreen;
+  grid-area: box3;
+}
+.box4{
+  background-color: lightpink;
+  grid-area: box4;
+}
+.main{
+height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-areas: 
+    "box1 box1 ."
+    ". box2  box2"
+    ". box3 box4 "
+    ;
+}
