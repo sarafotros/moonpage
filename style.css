@@ -51,7 +51,6 @@ ul {
 	font-size: 16px;
 }
 .main-nav-down ul li a {
-	/* font weight??? */
 	font-weight: 700;
 }
 .main-nav-down ul li a:hover {
@@ -118,11 +117,54 @@ input {
 	font-weight: 200;
 }
 
-/* test */
+/* slide */
 .slider-move {
 	background-color: rgb(255, 198, 209);
-	height: 200px;
+	display: flex;
+	height: 400px;
+	padding: 0 24px;
 }
+.slider-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 36px;
+}
+.slider-left h2 {
+	font-size: 2.5rem;
+	line-height: 1.2;
+	font-weight: 700;
+}
+.slider-move a {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	height: 48px;
+	width: 48%;
+	cursor: pointer;
+	text-align: center;
+	padding: 8px 16px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(213, 60, 98);
+	font-size: 1rem;
+	line-height: 1.5;
+	font-weight: 700;
+	letter-spacing: 0.4px;
+	transition: background-color 150ms linear 0s, box-shadow 150ms linear 0s;
+	border-style: none;
+	border-radius: 8px;
+}
+.slider-move a:hover {
+	opacity: 0.9;
+	box-shadow: rgba(0, 32, 77, 0.15) 0px 4px 8px 6px;
+}
+.slide-img {
+	height: 100%;
+	padding: 15px;
+	background-color: rgb(255, 198, 209);
+}
+/*  */
 .drawer {
 	background-color: aliceblue;
 	height: 100px;
