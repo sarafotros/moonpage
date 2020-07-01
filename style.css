@@ -1,17 +1,44 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 body {
 	height: 100vh;
 	font-family: 'Noto Sans', sans-serif;
 	color: rgb(0, 32, 77);
-	background-color: rgb(248, 248, 249);
+	/* background-color: rgb(248, 248, 249); */
 	font-size: 1rem;
 	line-height: 1.5;
 	font-weight: 300;
 	margin: 0px;
 }
+a {
+	text-decoration: none;
+	color: rgb(0, 32, 77);
+}
+ul {
+	list-style: none;
+}
+.container {
+	width: 100%;
+	margin: auto;
+}
+
+/* Nav */
+.main-nav {
+	display: flex;
+	align-items: center;
+	height: 140px;
+	padding: 20px 0;
+	font-size: 16px;
+}
+
+.logo {
+	max-height: 60px;
+}
 
 .header {
-	background-color: rgb(233, 243, 247);
-	height: 200px;
 }
 .upper-slide {
 	background-color: rgb(255, 248, 249);
