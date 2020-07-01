@@ -176,17 +176,15 @@ input {
 	justify-content: center;
 }
 .drawer-div {
-	margin-top: 24px;
-	margin-bottom: 24px;
+	margin: 24px 10px;
 	flex-direction: column;
 	background-color: white;
 	max-width: 170px;
 	height: 64px;
-	min-height: 8px;
+	/* min-height: 8px; */
 	padding: 8px 12px;
 	border: 2px solid rgb(1, 46, 108);
 	border-radius: 8px;
-	margin: 10px;
 }
 .drawer-div a {
 	text-decoration: none;
@@ -202,6 +200,10 @@ input {
 	font-weight: 700;
 	letter-spacing: 0.4px;
 	transition: background-color 150ms linear 0s, box-shadow 150ms linear 0s;
+}
+
+.drawer-div:hover {
+	box-shadow: rgba(0, 32, 77, 0.15) 3px 3px 8px 4px;
 }
 
 .bday-card {
