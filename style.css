@@ -321,21 +321,24 @@ input {
 #anniversary {
 	background-color: white;
 }
-/* Pride */
-.pride-month {
-	background-color: rgb(255, 248, 249);
-	height: 300px;
-}
-.pride-cards {
-	background-color: rgb(255, 248, 249);
-	height: 300px;
-}
-.sections {
+/* articles */
+
+.articles {
 	background-color: white;
-	height: 300px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 30px;
+	padding: 3% 5%;
 }
-.contacts {
-	height: 400px;
+.articles p {
+	font-size: 1rem;
+	line-height: 1.5;
+	font-weight: 300;
+	margin-top: 15px;
+}
+
+/* footer nav links */
+.nav-links {
 	background-color: rgb(240, 241, 243);
 }
 .our-app {
