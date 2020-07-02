@@ -340,10 +340,44 @@ input {
 /* footer nav links */
 .nav-links {
 	background-color: rgb(240, 241, 243);
+	padding: 3% 5%;
 }
+.links-inner {
+	max-width: 100%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	align-items: flex-start;
+	justify-content: center;
+}
+.links-inner li a {
+	font-size: 16px;
+	line-height: 2.6;
+}
+.links-inner li a:hover {
+	border-bottom: 1px solid;
+	color: rgb(213, 60, 98);
+}
+/* keep in touch */
 .our-app {
 	background-color: rgb(248, 248, 249);
-	height: 300px;
+	padding: 3% 5%;
+	text-align: center;
+}
+.keep-intouch {
+	width: 100%;
+	text-align: center;
+	margin: 20px 0;
+}
+.keep-intouch h3 {
+	margin: 20px 0;
+}
+.keep-intouch i {
+	margin: 2%;
+}
+.keep-intouch i:hover {
+	color: rgb(213, 60, 98);
 }
 .our-brand {
 	height: 200px;
