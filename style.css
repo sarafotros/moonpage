@@ -206,10 +206,10 @@ input {
 
 .bday-card {
 	background-color: rgb(255, 248, 249);
-	padding: 0 24px;
+	padding: 2px 24px;
 }
 .bday-dv {
-	margin: 0 3%;
+	margin: 2% 3%;
 }
 .cards-header h3 {
 	padding: 20px 0;
@@ -296,6 +296,7 @@ input {
 }
 .view-all a {
 	padding: 6px 16px;
+	/* margin-bottom: 20px; */
 	cursor: pointer;
 	color: rgb(206, 51, 86);
 	background-color: rgb(255, 248, 249);
@@ -316,6 +317,10 @@ input {
 	box-shadow: rgba(0, 32, 77, 0.15) 0px 3px 8px 6px;
 }
 
+/* anniversary */
+#anniversary {
+	background-color: white;
+}
 /* Pride */
 .pride-month {
 	background-color: rgb(255, 248, 249);
