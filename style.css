@@ -5,7 +5,7 @@
 }
 body {
 	height: 100vh;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	color: rgb(0, 32, 77);
 	/* background-color: rgb(248, 248, 249); */
 	font-size: 1rem;
@@ -14,12 +14,13 @@ body {
 	margin: 0px;
 }
 header {
+	/* z-index: 100; */
 }
 .header-div {
-	position: fixed;
+	/* position: fixed; */
 	width: 100%;
-	height: 170px;
-	padding: 25px 30px 5px 30px;
+	height: 150px;
+	padding: 25px 30px 25px 30px;
 	background-color: rgb(255, 255, 255);
 	border-bottom: 2px solid rgb(240, 241, 243);
 }
@@ -51,7 +52,6 @@ ul {
 .main-nav-down {
 	display: flex;
 	align-items: center;
-	height: 60px;
 	font-size: 16px;
 }
 .main-nav-down ul li a {
@@ -79,7 +79,7 @@ input {
 	height: 40%;
 	min-height: 48px;
 	margin: 0px;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 1rem;
 	border-color: transparent;
 	background-color: rgb(240, 241, 243);
@@ -166,7 +166,6 @@ input {
 /* Drawer */
 .drawer {
 	background-color: rgb(248, 248, 249);
-	position: relative;
 	overflow-x: auto;
 	overflow-y: hidden;
 	display: flex;
@@ -180,7 +179,6 @@ input {
 	background-color: white;
 	max-width: 170px;
 	height: 64px;
-	/* min-height: 8px; */
 	padding: 8px 12px;
 	border: 2px solid rgb(1, 46, 108);
 	border-radius: 8px;
@@ -204,14 +202,62 @@ input {
 .drawer-div:hover {
 	box-shadow: rgba(0, 32, 77, 0.15) 3px 3px 8px 4px;
 }
+/* birthday cards */
 
 .bday-card {
 	background-color: rgb(255, 248, 249);
-	height: 300px;
+	padding: 0 24px;
 }
+.bday-dv {
+	margin: 0 88px;
+}
+.cards-header h3 {
+	padding: 20px 0;
+	font-size: 1.6rem;
+	font-weight: 700;
+}
+.cards-header p {
+	padding-bottom: 16px;
+}
+.bday-chev {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.fa-chevron-left:hover {
+	margin-left: 4px;
+	font-weight: bolder;
+}
+.fa-chevron-right:hover {
+	margin-right: 4px;
+	font-weight: bolder;
+}
+.bday-img {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 20px;
+}
+.bday-img img {
+	width: 100%;
+	margin-bottom: 14px;
+	border-radius: 3px;
+}
+
+.bday-img img:hover {
+	box-shadow: rgba(0, 32, 77, 0.15) 4px 6px 8px 4px;
+	margin-top: 2px;
+}
+/* flowers */
 .flowers {
 	background-color: white;
-	height: 300px;
+}
+.flower-cards {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 20px;
+}
+.flower-cards img {
+	width: 100%;
 }
 .pride-month {
 	background-color: rgb(255, 248, 249);
