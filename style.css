@@ -471,4 +471,19 @@ input {
 		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 6px;
 	}
+	.drawer-div a {
+		font-size: 0.6rem;
+		line-height: 1.8;
+		font-weight: 600;
+		letter-spacing: 0.2px;
+	}
+	.drawer-div {
+		margin: 12px 5px;
+		padding: 4px 6px;
+		border-radius: 6px;
+	}
+	.links-inner li a {
+		font-size: 13px;
+		line-height: 2;
+	}
 }
