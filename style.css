@@ -356,6 +356,9 @@ input {
 	align-items: flex-start;
 	justify-content: center;
 }
+.links-inner li h3 {
+	margin-bottom: 6%;
+}
 .links-inner li a {
 	font-size: 16px;
 	line-height: 2.6;
@@ -376,7 +379,7 @@ input {
 	margin: 20px 0;
 }
 .keep-intouch h3 {
-	margin: 20px 0;
+	margin: 2% 0;
 }
 .keep-intouch i {
 	margin: 2%;
