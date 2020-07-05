@@ -15,6 +15,16 @@ body {
 .container {
 	width: 100%;
 }
+
+.menu-btn {
+	cursor: pointer;
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	z-index: 2;
+	display: none;
+}
+
 header {
 	width: 100%;
 }
@@ -53,7 +63,6 @@ ul {
 }
 .main-nav-down {
 	width: 100%;
-
 	display: flex;
 	align-items: center;
 	font-size: 16px;
@@ -505,8 +514,52 @@ input {
 	.slide-img img {
 		display: none;
 	}
-
-	.main-nav-down {
+	.header-div {
+		width: 100%;
+		height: 90px;
+		padding-top: 20px;
+		background-color: rgb(255, 255, 255);
+		border-bottom: 2px solid rgb(240, 241, 243);
+	}
+	input {
 		display: none;
+	}
+	.menu-btn {
+		display: block;
+		font-size: 14px;
+	}
+	.menu-btn:hover {
+		opacity: 0.5;
+		color: rgb(213, 60, 98);
+	}
+	.main-nav-down ul {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: #f2f2f2;
+		width: 50%;
+		height: 100%;
+		border-right: #ccc 1px solid;
+		opacity: 0.9;
+		padding: 30px;
+		transform: translateX(-500);
+		transition: transform 0.5s ease-in-out;
+	}
+	.main-nav-down ul.show {
+		transform: translateX(-20);
+	}
+	.main-nav-up ul li {
+		margin-right: 30px;
+	}
+	.main-nav-down ul li {
+		padding: 10px;
+		border-bottom: #ccc solid 1px;
+	}
+	.main-nav-down ul li a:hover {
+		border-bottom: 0;
+	}
+	.main-nav-down ul li:last-child {
+		border-bottom: 0;
 	}
 }
