@@ -109,9 +109,7 @@ input {
 	justify-content: center;
 	align-items: center;
 }
-.upper-slide-text {
-	/* width: 100%; */
-}
+
 .upper-slide a {
 	display: inline-flex;
 	justify-content: center;
@@ -189,7 +187,6 @@ input {
 	background-color: rgb(255, 198, 209);
 }
 .slide-img img {
-	/* width: 70%; */
 	height: 80%;
 	padding-left: 5%;
 }
@@ -430,10 +427,8 @@ input {
 .inner-brand img {
 	margin: 18px 0;
 }
-/* responsive  */
-/* responsive  */
-/* responsive  */
-/* responsive  */
+
+/* responsive  responsive responsive */
 
 @media (max-width: 800px) {
 	.header-div {
