@@ -128,11 +128,11 @@ input {
 .upper-slide-text span {
 	color: rgb(1, 44, 108);
 	margin-right: 16px;
-	font-size: 0.875rem;
-	font-weight: 200;
+	font-size: 0.99rem;
+	font-weight: 500;
 }
 #chevron-slide {
-	font-size: 14px;
+	font-size: 18px;
 	margin-left: 10px;
 	text-decoration: none;
 }
